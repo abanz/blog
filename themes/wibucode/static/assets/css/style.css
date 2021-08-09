@@ -208,6 +208,9 @@ main {
    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
+.card img {
+   border-radius:20px !important;
+}
 .card:hover {
    transform: scale(1.00);
    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
