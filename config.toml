@@ -1,0 +1,13 @@
+baseURL = "https://tulisan-akbarr.ml"
+languageCode = "id-id"
+title = "Tulisan Akbar"
+theme = "wibucode"
+summaryLength = 10
+paginate = 6
+[params]
+    Description = "Website kedua dari Akbarr.ml"
+[taxonomies]
+    category = "categories"
+    tag = "tags"
+    topik = "topik"
+    bahasa = "bahasa"

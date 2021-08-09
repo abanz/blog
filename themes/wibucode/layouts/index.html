@@ -1,0 +1,33 @@
+{{ define "main" }}
+<br><br><br><br><br>
+<div class="wrapper mt-5">
+<div class="container">
+    <div class="row">
+        {{ range (.Paginate (where .Site.RegularPages "Section" "posts")).Pages }}
+        <div class="col-sm-4 mt-2 py-3 py-sm-2">
+            <div class="card">
+                <a href=" {{ .Permalink }} ">
+                    <img src="/img/{{ .Params.featured_image }}" alt="" class="card-img-top">
+                </a>
+                <div class="card-body">
+                        <h5 class="card-title"><a href=" {{ .Permalink }} ">{{ .Title }}</a></h5>
+                    
+                </div>
+              </div>
+            </div>
+            {{ end }}
+
+            <div class="artikel-pagination">
+                {{ template "_internal/pagination.html" . }}
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+
+        </div>
+    </div>
+    
+    
+    {{ end }}
