@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+
+   
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <title>Topik</title>
+   
+   <meta content="Website kedua dari Akbarr.ml" name="description" />
+   
+   <meta content="Wibucode,Komunitas Programmer,Mgodonf" name="keywords" />
+   <link rel="canonical" href="https://tulisan-akbarr.ml" />
+   <meta property="og:locale" content="en_US" />
+   <meta property="og:title" content="Wibucode" />
+   <meta property="og:type" content="Website" />
+   <meta property="og:url" content="https://tulisan-akbarr.ml" />
+   <meta property="og:site_name" content="Tulisan Akbar" />
+   <meta property="og:image" content="/img/" />
+   <meta name="google-site-verification" content="JdGyATti1eAnFEkxB5rB6wKn8fIT_qfBJTh8vFzfhI8" />
+
+   
+   <meta name="theme-color" content="#388794">
+   <meta name="msapplication-TileColor" content="#388794">
+
+    
+    <link rel="shortcut icon" href="https://akbarr.ml/img/favicon.png">
+    
+    <link href="/assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/assets/css/themify-icons.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head><body><header id="header">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+               <h3 style="color: white;">Akbar</h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="ti-menu"></div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://saweria.co/Abanz">Donate <i class="fas fa-heart"></i></a>
+                    </li>
+                </div>
+               
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+<div class="wrapper mb-5">
+    <div class="container">
+        <section class="artikel" id="artikel">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h1> Topik </h1>
+
+                </div>
+                <div class="section-body">
+                    <div class="row">
+                        <div class="col">
+                            
+                            
+                            
+
+
+                        </div>
+
+
+
+
+                        <div class="artikel-pagination">
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+
+        
+    </main><footer class="footer-area">
+        <div class="row text-white copyright">
+            <div class="col-lg-12">
+                <p class="text-center">© 2021 Akbar Maulana</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+
+<script src="/assets/js/jquery-3.5.1.slim.min.js"></script>
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+
+<script>
+
+    
+    const buttonRight1 = document.getElementById("slideRightback-end");
+    const buttonLeft1 = document.getElementById("slideLeftback-end");
+    const item1 = document.getElementById("artkback-end");
+    buttonRight1.onclick = function () {
+        item1.scrollLeft += 90;
+    };
+    buttonLeft1.onclick = function () {
+        item1.scrollLeft -= 90;
+    };
+
+    
+    const buttonRight2 = document.getElementById("slideRightfront-end");
+    const buttonLeft2 = document.getElementById("slideLeftfront-end");
+    const item2 = document.getElementById("artkfront-end");
+    buttonRight2.onclick = function () {
+        item2.scrollLeft += 90;
+    };
+    buttonLeft2.onclick = function () {
+        item2.scrollLeft -= 90;
+    };
+
+</script>
+<script>
+    const namaKat = nama => {
+        const nama2 = nama.split('-');
+
+        let nama3 = [];
+        nama2.forEach(nm => {
+            nama3.push(nm.charAt(0).toUpperCase() + nm.slice(1));
+        });
+        const nama4 = nama3.join(' ');
+
+        return nama4;
+    };
+
+    $('.nama-kategori').each(function () {
+        $(this).text(namaKat($(this).text()));
+    });
+</script>
+
+</html></body>
+
+</html>
