@@ -10,7 +10,7 @@
                 </div>
                 <div class="section-body">
                     <div class="row" style="margin-left: 0px !important;margin-right: 0px !important;">
-                        <div class="col">
+                        <div class="container col">
                             {{ if eq .Title "Tags" }}
                             {{ range sort .Site.Taxonomies.tags }}
                             <a href="{{ .Page.Permalink }}" class="m-1 btn btn-info">{{ .Page.Title }}<span
